@@ -1,14 +1,7 @@
 const Sectionheading = ({ children, className = "" }) => {
   const base = "text-[#333333] font-ngh font-normal text-[24px] leading-[100%]";
- return (
-    <div className=" flex flex-col gap-2
-        sm:flex-col
-        md:flex-row md:items-center md:justify-between
-      "
-    
-    
-    
-    
+  return (
+    <div className=" flex gap-2 md:flex-row"
     >
       <p
         className={className ? className : `${base} `}

@@ -11,10 +11,10 @@ import { menuItems } from './data'
 function App() {
   return (
     <div>
-      {/* <Navbar menuItems={menuItems} /> */}
-      <div className="bg-accent" >
+      <Navbar menuItems={menuItems} />
+      <div className="bg-accent  " >
         <Container>
-          <Layout />
+          <Layout/>
         </Container>
       </div>
 

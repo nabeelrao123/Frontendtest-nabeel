@@ -48,8 +48,9 @@ const Navbar = (props) => {
 
               {props?.menuItems.map((cval,index) => {
                 return (<>
-                  <a key={index} className={`${cval == 'Find Jobs' ?
-                   "py-2 text-base font-semibold text-[#0154AA] font-ngh  leading-[1] tracking-[0%] hover:text-[#0154AA] " : "py-2 md:text-sm xl:text-[15px] hover:text-[#0154AA] font-medium text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
+                  <a key={index} className={`${cval.label == 'Find Jobs' ?
+                   "py-2 font-ngh text-base font-bold text-[#0154AA]   leading-[1] tracking-[0%] hover:text-[#0154AA] " : 
+                   "py-2 md:text-sm xl:text-[15px] hover:text-[#0154AA] font-normal text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
                     href="#"
                   >
                     {cval.label}
@@ -181,7 +182,7 @@ const Navbar = (props) => {
                 return (<>
                   <a className={`${cval == 'Find Jobs' ?
                    " block  text-[15px] rounded-md  px-3 py-2 font-semibold text-[#0154AA] font-ngh  leading-[1] tracking-[0%] hover:text-[#0154AA]"
-                    : " block py-2 rounded-md  px-3 text-[15px] font-medium hover:text-[#0154AA] text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
+                    : " block py-2 rounded-md  px-3 text-[15px] font-normal hover:text-[#0154AA] text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
                     href="#"
                   >
                     {cval}

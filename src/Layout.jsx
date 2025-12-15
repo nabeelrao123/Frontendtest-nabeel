@@ -22,8 +22,8 @@ const Layout = () => {
 
             <div className="lg:col-span-1 p-3">
                 {/* Left Side (25%) */}
-                {/* <Profilecard /> */}
-                {/* <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
+                <Profilecard />
+                <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
                     <div className="flow-root">
                         <ul role="list" className="divide-y divide-default">
                             {users.map((user, index) => (
@@ -44,9 +44,9 @@ const Layout = () => {
                             ))}
                         </ul>
                     </div>
-                </div> */}
+                </div>
 
-                {/* <div className="w-full p-3 mt-3 bg-white border flex items-center justify-between border-white rounded-lg ">
+                <div className="w-full p-3 mt-3 bg-white border flex items-center justify-between border-white rounded-lg ">
                     <div>
                         <p class="font-ngh text-[#333333] font-bold text-[16px] leading-[100%] tracking-[0%] ">
                             My Calender
@@ -56,13 +56,13 @@ const Layout = () => {
                         </p>
                     </div>
                     <div> <a> <LuChevronDown className="text-[20px] text-[#333333] hover:text-[#0154AA] transition" /></a></div>
-                </div> */}
+                </div>
             </div>
-            <div className="lg:col-span-3  p-3">
+            <div className="lg:col-span-3  p-3 mt-3 ">
                 {/* Right Side (75%) */}
                 <Sectionheading className="font-ngh font-bold text-[#333333] text-[22px] leading-[100%] tracking-[0px]"  >Find your Dream Job,
                     <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" >Albert!</span> </Sectionheading>
-                <p className="font-ngh mt-2 font-[500] text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
+                <p className="font-ngh mt-2 font-normal text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
                     Explore the latest job openings and apply for the best opportunities available today!</p>
                 <Banner />
               
@@ -90,12 +90,12 @@ const Layout = () => {
                     <div>
                         <Sectionheading  >
                           
-                            <span>
+                            {/* <span> */}
                             Featured Jobs
                                 <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
                                     See Featured Jobs
                                 </a>
-                            </span>
+                            {/* </span> */}
                         </Sectionheading>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-5 gap-4 mt-3">
                             {FeaturedCardData.map((item, index) =>
@@ -114,6 +114,10 @@ const Layout = () => {
                                 <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]" >
                                     See Recommended Jobs</a></span>
                         </Sectionheading>
+
+
+
+
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-3">
                             {jobCardData.map((item, index) => (
                                 <JobCard key={index}  {...item} />
