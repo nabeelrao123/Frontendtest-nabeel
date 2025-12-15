@@ -7,122 +7,124 @@ import JobCard from "../Jobcard";
 import Sectionheading from "../Sectionheading";
 import framee from '../../assets/framee.png'
 import { LuChevronDown } from "react-icons/lu";
+import Banner from "../Banner";
+import { jobCardData } from "../../data";
 
 const Dashboardlayout = () => {
 
 
-    const jobCardData = [
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    // const jobCardData = [
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-        {
-            promotedText: "Promoted",
-            title: "UI/UX Designer",
-            team: "Team",
-            location: "Seattle, USA (Remote)",
-            postedTime: "1 day ago",
-            applicants: "22 applicants",
-            buttonText: "Apply Now",
-            onButtonClick: () => alert("Web Dev Clicked")
+    //     },
+    //     {
+    //         promotedText: "Promoted",
+    //         title: "UI/UX Designer",
+    //         team: "Team",
+    //         location: "Seattle, USA (Remote)",
+    //         postedTime: "1 day ago",
+    //         applicants: "22 applicants",
+    //         buttonText: "Apply Now",
+    //         onButtonClick: () => alert("Web Dev Clicked")
 
-        },
-    ]
+    //     },
+    // ]
 
 
 
@@ -246,69 +248,16 @@ const Dashboardlayout = () => {
                             <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" >Albert!</span> </Sectionheading>
 
 
-                        <p className="font-ngh mt-2 font-medium text-[#585D6E] text-[14px] leading-[100%] tracking-[0px]">
+                        <p className="font-ngh mt-2 font-[500] text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
                             Explore the latest job openings and apply for the best opportunities available today!</p>
-                        <div class="border  flex justify-between items-center py-5 px-4 rounded-[10px] mt-8 bg-[#FFFFFF]">
-                            <div>
-                                <p className="font-ngh text-[#585D6E] text-[14px] leading-[100%] tracking-[0px]"  > Job Title, Company, or Keywords </p>
-                            </div>
-                            <div className="flex justify-between items-center space-x-5">
-                                <div>
-                                    <div className="w-px h-6 bg-[#E9ECEF]"></div>
-                                </div>
-                                <button
-                                    className="font-ngh  inline-flex items-center gap-4 text-[14px]  text-[#585D6E] hover:text-gray-900 focus:outline-none"
-                                    type="button"
-                                >
-                                    Select Location
-                                    <svg
-                                        className="w-4 h-4 text-[#585D6E] "
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7" />
-                                    </svg>
-                                </button>
-                                <div>
-                                    <div className="w-px h-6 bg-[#E9ECEF]"></div>
-                                </div>
-                                <button
-                                    className="font-ngh  inline-flex items-center gap-4 text-[14px]  text-[#585D6E] hover:text-gray-900 focus:outline-none"
-
-                                    type="button"
-                                >
-                                    Job Type
-                                    <svg
-                                        className="w-4 h-4 text-[#585D6E] "
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7" />
-                                    </svg>
-                                </button>
-                                <button className="flex items-center gap-2 px-4 py-2 text-sm bg-[#0154AA] text-white rounded-md
-             hover:bg-gray-800 transition
-          font-ngh mt-2 font-medium text-[14px] leading-[100%] tracking-[0px]
-             
-             ">
-                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35m1.85-5.4a7.25 7.25 0 11-14.5 0 7.25 7.25 0 0114.5 0z" />
-                                    </svg>
-                                    Search
-                                </button>
-                            </div>
-                        </div>
 
 
+                        <Banner />
 
 
                         <div>
                             <div className="mt-8  flex space-x-3 items-center " >
-                                <p className="font-ngh text-[#737A91] font-semibold  " >Similiar : </p>
+                                <p className="font-ngh text-[#737A91] font-normal " >Similiar : </p>
                                 <div className="flex space-x-3" >
                                     {['Frontend', 'Backend', 'Graphic Designer'].map((val) => {
                                         return (<>
@@ -319,31 +268,31 @@ const Dashboardlayout = () => {
                             </div>
                             <div className="w-full h-[1px] bg-gray-300 mt-3 "></div>
                         </div>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         {/* FEATURED JOBS */}
                         <div className="mt-8" >
 
@@ -429,21 +378,6 @@ const Dashboardlayout = () => {
 
                             <div className="w-full h-[1px] bg-gray-300 mt-3 "></div>
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
 
 
