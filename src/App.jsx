@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-{/* <Navbar/> */}
-    <Dashboardlayout/>
+<Navbar/>
+    {/* <Dashboardlayout/> */}
 {/* <Navs/> */}
 
     {/* <Navbar/> */}

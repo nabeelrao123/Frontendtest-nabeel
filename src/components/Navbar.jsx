@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative bg-white">
-      <div className="mx-auto max-w-[95%] px-1 sm:px-3 lg:px-6">
+      <div className="mx-auto max-w-[95%] px-1 sm:px-3  xl:px-6">
         <div className="relative flex h-16 items-center justify-between">
 
           {/* Mobile menu button */}
@@ -40,13 +40,13 @@ const Navbar = () => {
             </div>
 
             {/* Desktop Menu */}
-            <div className="hidden sm:ml-8 sm:flex items-center space-x-6">
+            <div className="hidden sm:ml-8 sm:flex items-center  md:space-x-4 xl:space-x-6 ">
 
               {['Find Jobs', 'Top Companies', 'Job Tracker', 'My Calender', 'Documents', 'Messages', 'Notifications'].map((cval) => {
                 return (<>
                   <a className={`${cval == 'Find Jobs' ?
 
-                    "py-2 text-base font-semibold text-[#0154AA] font-neue  leading-[1] tracking-[0%]" : "py-2 text-sm font-medium text-[#737A91] font-neue  leading-[1] tracking-[0%]"}`}
+                    "py-2 text-base font-semibold text-[#0154AA] font-ngh  leading-[1] tracking-[0%]" : "py-2 md:text-sm xl:text-[15px] font-medium text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
 
 
                     href="#"
@@ -63,10 +63,10 @@ const Navbar = () => {
           </div>
 
           {/* Right section */}
-          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto xl:ml-6 sm:pr-0">
 
             {/* Desktop Search - Shows on medium screens and above */}
-            <div className="hidden lg:block md:mr-4 lg:mr-6">
+            <div className="hidden xl:block xl:mr-4 ">
               <div className="relative">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                   <svg className="h-4 w-4 text-[#737A91]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
@@ -82,7 +82,7 @@ const Navbar = () => {
             </div>
 
             {/* Tablet Search - Simplified search icon/button */}
-            <div className="hidden sm:block lg:hidden mr-3">
+           <div className="block xl:hidden mr-3">
               <button
                 onClick={() => setSearchOpen(!searchOpen)}
                 className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-none"
