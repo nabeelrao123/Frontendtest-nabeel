@@ -47,11 +47,11 @@ const Layout = () => {
 
                 <div className="w-full p-3 mt-3 bg-white border flex items-center justify-between border-white rounded-lg ">
                     <div>
-                        <p class="font-ngh text-[#333333] font-bold text-[16px] leading-[100%] tracking-[0%] ">
+                        <p className="font-ngh text-[#333333] font-bold text-[16px] leading-[100%] tracking-[0%] ">
                             My Calender
                         </p>
-                        <p class="font-ngh text-[#737A91]  font-normal text-[14px] leading-[100%] tracking-[0%] ">
-                            Upcoming Interview
+                        <p className="font-ngh text-[#737A91]  font-normal text-[14px] leading-[100%] tracking-[0%] ">
+                            Upcoming  Interview
                         </p>
                     </div>
                     <div> <a> <LuChevronDown className="text-[20px] text-[#333333] hover:text-[#0154AA] transition" /></a></div>
