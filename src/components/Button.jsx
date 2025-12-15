@@ -5,8 +5,8 @@ const Button = ({ children, variant = "primary", icon = null, iconPosition = "le
   const variants = {
     primary: "bg-[#0154AA] text-white font-semibold  hover:bg-blue-700 focus:ring-blue-300",
     secondary: "bg-[#0154AA] text-white font-semibold  hover:bg-gray-700 focus:ring-gray-300",
-    outline:
-      "font-ngh  px-4 py-2 border text-[#737A91] font-normal  border-[#737A91]  rounded hover:bg-blue-500 hover:text-white transition",
+    // outline:"font-ngh  px-4 py-2 border text-[#737A91] font-normal  border-[#737A91]  rounded hover:bg-blue-500 hover:text-white transition",
+    outline:"font-ngh  px-2  border text-[#737A91] font-normal  border-[#737A91]  rounded hover:bg-blue-500 hover:text-white transition",
     danger: "bg-[#0154AA] text-white hover:bg-red-700 focus:ring-red-300",
   };
 
