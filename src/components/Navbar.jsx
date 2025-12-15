@@ -1,11 +1,12 @@
 import { useState } from "react";
 import logo from '../assets/logo.png'
 import profilepic from '../assets/profilepic.png'
-const Navbar = () => {
+const Navbar = (props) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
 
+  console.log(props.menuItems)
   return (
     <nav className="relative bg-white">
       <div className="mx-auto max-w-[95%] px-1 sm:px-3  xl:px-6">
@@ -45,17 +46,17 @@ const Navbar = () => {
             {/* Desktop Menu */}
             <div className="hidden lg:ml-8 lg:flex items-center  md:space-x-4 xl:space-x-6 ">
 
-              {['Find Jobs', 'Top Companies', 'Job Tracker', 'My Calender', 'Documents', 'Messages', 'Notifications'].map((cval) => {
+              {props?.menuItems.map((cval,index) => {
                 return (<>
-                  <a className={`${cval == 'Find Jobs' ?
+                  <a key={index} className={`${cval == 'Find Jobs' ?
                    "py-2 text-base font-semibold text-[#0154AA] font-ngh  leading-[1] tracking-[0%] hover:text-[#0154AA] " : "py-2 md:text-sm xl:text-[15px] hover:text-[#0154AA] font-medium text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
                     href="#"
                   >
-                    {cval}
+                    {cval.label}
                   </a>
                 </>)
               })
-              }
+            }
 
             </div>
           </div>

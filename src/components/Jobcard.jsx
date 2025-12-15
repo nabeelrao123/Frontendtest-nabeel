@@ -105,6 +105,7 @@
 import { FiBookmark } from "react-icons/fi";
 import { FiClock, FiMapPin } from "react-icons/fi"; // Feather icons
 import framee from '../assets/framee.png'
+import Button from "./Button";
 const JobCard = ({
     promotedText = "Promoted",
     title,
@@ -118,10 +119,8 @@ const JobCard = ({
 }) => {
     return (
         <>
-            {/* LATEST JOBS */}
-
             <div className="bg-white flex flex-col space-y-2 py-3 px-2 border border-[#E1E1E1] rounded-[10px] border-default shadow-xs">
-                <p className="font-ngh text-[10px] " >Promoted</p>
+                <p className="font-ngh text-[10px] text-[#333333] font-semibold  " >Promoted</p>
                 <div className="flex items-center space-x-2" >
                     <img src={framee}
                         alt="Service icon"
@@ -129,28 +128,30 @@ const JobCard = ({
                     />
                     <div>
                         <p className="font-ngh text-[14px] font-semibold  text-[#333333]">UI/UX Designer </p>
-                        <p className="font-ngh text-[14px] font-semibold  text-[#333333]">Team </p>
+                        <p className="font-ngh text-[14px] font-normal  text-[#333333]">Team </p>
                     </div>
                 </div>
 
                 <div className="flex items-center space-x-2" >
                     <FiMapPin className='text-sm text-[#585D6E]' />
-                    <p className="font-ngh text-[12px] font-semibold  text-[#333333]" >Seattle, USA (Remote)</p>
+                    <p className="font-ngh text-[12px] font-normal  text-[#585D6E]" >Seattle, USA (Remote)</p>
                 </div>
 
                 <div className="flex items-center space-x-2" >
                     <FiClock className='text-sm text-[#585D6E]' />
-                    <p className="font-ngh text-[12px] font-semibold  text-[#333333]" >1day ago |
-                        <span className="font-ngh text-[12px] font-semibold  text-[#0154AA]" > 22 applicants</span>
+                    <p className="font-ngh text-[12px] font-normal  text-[#585D6E]" >1day ago |
+                        <span className="font-ngh text-[12px] font-normal  text-[#0154AA]" > 22 applicants</span>
                     </p>
                 </div>
 
 
                 <div className="flex items-center space-x-2 px-2 " >
-                    <button className="hover:bg-[#0154AA] bg-[#0154AA] text-white  py-3 px-7  rounded-md font-ngh 
+                    <button className="font-ngh font-normal  hover:bg-[#0154AA] bg-[#0154AA] text-white  py-3 px-7  rounded-md font-ngh 
                      text-[12px] leading-[100%] tracking-[0]">
                         {buttonText}
                     </button>
+          
+          
                     {/* <FiClock className='text-xs text-[#585D6E]' /> */}
 
 <FiBookmark className="text-[#AAAAAA] text-lg" />

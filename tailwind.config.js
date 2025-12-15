@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        accent: "#F4F4F4"
+      },
       fontFamily: {
         nhg: ['"Neue Haas Grotesk Display Pro"', 'sans-serif'],
       },
