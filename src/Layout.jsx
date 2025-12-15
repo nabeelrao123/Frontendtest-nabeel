@@ -89,14 +89,15 @@ const Layout = () => {
                 <div className="mt-8" >
                     <div>
                         <Sectionheading  >
-                            Featured Jobs
+                          
                             <span>
+                            Featured Jobs
                                 <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
                                     See Featured Jobs
                                 </a>
                             </span>
                         </Sectionheading>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-5 gap-4 mt-3">
                             {FeaturedCardData.map((item, index) =>
                                 index <= 4 ? <JobCard key={index} {...item}
                                     onButtonClick={() => alert("Web Dev Clicked")}

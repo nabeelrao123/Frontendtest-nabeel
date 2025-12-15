@@ -119,7 +119,7 @@ const JobCard = ({
 }) => {
     return (
         <>
-            <div className="bg-white flex flex-col space-y-2 py-3 px-2 border border-[#E1E1E1] rounded-[10px] border-default shadow-xs">
+            <div className="bg-white flex flex-col space-y-3 py-3 px-2 border border-[#E1E1E1] rounded-[10px] border-default shadow-xs">
                 {/* <p className="font-ngh text-[10px] text-[#333333] font-semibold  " >
                     promotedText?   promotedText:''} 
                     
@@ -151,7 +151,7 @@ const JobCard = ({
 
 
                 <div className="flex items-center space-x-2 px-2 " >
-                    <button className="font-ngh font-normal  hover:bg-[#0154AA] bg-[#0154AA] text-white  py-3 px-7  rounded-md font-ngh 
+                    <button className="font-ngh font-normal  hover:bg-[#0154AA] px-16 md:px-12 bg-[#0154AA] text-white  py-3 xl:px-6  rounded-md font-ngh 
                      text-[12px] leading-[100%] tracking-[0]">
                         {buttonText}
                     </button>
@@ -159,7 +159,7 @@ const JobCard = ({
           
                     {/* <FiClock className='text-xs text-[#585D6E]' /> */}
 
-<FiBookmark className="text-[#AAAAAA] text-lg" />
+<FiBookmark className="text-[#AAAAAA] text-[22px]" />
                 </div>
             </div>
 
@@ -170,5 +170,4 @@ const JobCard = ({
 };
 
 export default JobCard;
-
 
