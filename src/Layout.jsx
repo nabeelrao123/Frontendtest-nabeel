@@ -62,32 +62,32 @@ const Layout = () => {
                 {/* Right Side (75%) */}
                 <Sectionheading className="font-ngh font-bold text-[#333333] text-[22px] leading-[100%] tracking-[0px]"  >Find your Dream Job,
                     <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" > Albert!</span> </Sectionheading>
-                <p className="font-ngh mt-2 font-normal text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
+                <p className="font-ngh mt-3 md:mt-2 font-normal text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
                     Explore the latest job openings and apply for the best opportunities available today!</p>
                 <Banner />
 
 
-                    <div className="mt-8">
-                        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-                            <p className="font-ngh text-[#737A91] font-normal text-sm sm:text-base whitespace-nowrap">
-                                Similar :
-                            </p>
+                <div className="mt-8">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                        <p className="font-ngh text-[#737A91] font-normal text-sm sm:text-base whitespace-nowrap">
+                            Similar :
+                        </p>
                         <div className="flex flex-wrap gap-2 sm:gap-3">
-                                {['Frontend', 'Backend', 'Graphic Designer'].map((val, index) => (
-                                    <Button
-                                        key={index}
-                                        variant="outline"
-                                        className="px-2 py-1 sm:px-3 sm:py-1 text-xs sm:text-sm"
-                                    >
-                                        {val}
-                                    </Button>
-                                ))}
-                            </div>
+                            {['Frontend', 'Backend', 'Graphic Designer'].map((val, index) => (
+                                <Button
+                                    key={index}
+                                    variant="outline"
+                                    className="px-2 py-1 sm:px-3 sm:py-1 text-xs sm:text-sm"
+                                >
+                                    {val}
+                                </Button>
+                            ))}
                         </div>
-
-                        {/* Divider - responsive margin */}
-                        <div className="w-full h-[1px] bg-[#E6E9Ef] mt-3 sm:mt-4"></div>
                     </div>
+
+                    {/* Divider - responsive margin */}
+                    <div className="w-full h-[1px] bg-[#E6E9Ef] mt-3 sm:mt-4"></div>
+                </div>
 
 
 
