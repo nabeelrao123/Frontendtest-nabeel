@@ -181,7 +181,7 @@ const Navbar = (props) => {
                 {['Find Jobs', 'Top Companies', 'Job Tracker', 'My Calender', 'Documents', 'Messages', 'Notifications'].map((cval) => {
                 return (<>
                   <a className={`${cval == 'Find Jobs' ?
-                   " block  text-[15px] rounded-md  px-3 py-2 font-semibold text-[#0154AA] font-ngh  leading-[1] tracking-[0%] hover:text-[#0154AA]"
+                   " block  text-[15px] rounded-md  px-3 py-2 font-bold text-[#0154AA] font-ngh  leading-[1] tracking-[0%] hover:text-[#0154AA]"
                     : " block py-2 rounded-md  px-3 text-[15px] font-normal hover:text-[#0154AA] text-[#737A91] font-ngh  leading-[1] tracking-[0%]"}`}
                     href="#"
                   >
