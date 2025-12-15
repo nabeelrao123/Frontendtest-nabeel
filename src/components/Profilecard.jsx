@@ -8,46 +8,6 @@ import rectan from '../assets/rectan.png'
 const Profilecard = () => {
 
 
-  const services = [
-    {
-      // imageSrc: rectangle52,
-      // iconSrc: group93,
-      title: "Live Interpreting",
-      description: "Live interpretation is given by our staff of highly skilled, professional interpreters who provide dependable translation services for any of your LEP clients and is accessible to all through the Ria Lingo platform."
-
-
-    },
-    {
-      // imageSrc: rectangle54,
-      // iconSrc: group93,
-      title: "Video Remote Interpreting",
-      description: "Live interpretation is given by our staff of highly skilled, professional interpreters who provide dependable translation services for any of your LEP clients and is accessible to all through the Ria Lingo platform."
-
-    },
-    {
-      // imageSrc: rectangle56,
-      // iconSrc: group93,
-      title: "Transcription",
-      description: "Live interpretation is given by our staff of highly skilled, professional interpreters who provide dependable translation services for any of your LEP clients and is accessible to all through the Ria Lingo platform."
-
-    },
-    {
-      // imageSrc: rectangle58,
-      // iconSrc: group93,
-      title: "Voice-Overs",
-      description: "Live interpretation is given by our staff of highly skilled, professional interpreters who provide dependable translation services for any of your LEP clients and is accessible to all through the Ria Lingo platform."
-
-    },
-    {
-      // /      imageSrc: rectangle60,
-      // iconSrc: group93,
-      title: "Phone Interpreting",
-      description: "Live interpretation is given by our staff of highly skilled, professional interpreters who provide dependable translation services for any of your LEP clients and is accessible to all through the Ria Lingo platform."
-
-    }
-  ];
-
-
   return (
 
     <>

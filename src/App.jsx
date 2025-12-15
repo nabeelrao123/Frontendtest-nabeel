@@ -11,7 +11,7 @@ import { menuItems } from './data'
 function App() {
   return (
     <div>
-      <Navbar menuItems={menuItems} />
+      {/* <Navbar menuItems={menuItems} /> */}
       <div className="bg-accent" >
         <Container>
           <Layout />

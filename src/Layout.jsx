@@ -22,8 +22,8 @@ const Layout = () => {
 
             <div className="lg:col-span-1 p-3">
                 {/* Left Side (25%) */}
-                <Profilecard />
-                <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
+                {/* <Profilecard /> */}
+                {/* <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
                     <div className="flow-root">
                         <ul role="list" className="divide-y divide-default">
                             {users.map((user, index) => (
@@ -44,9 +44,9 @@ const Layout = () => {
                             ))}
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="w-full p-3 mt-3 bg-white border flex items-center justify-between border-white rounded-lg ">
+                {/* <div className="w-full p-3 mt-3 bg-white border flex items-center justify-between border-white rounded-lg ">
                     <div>
                         <p class="font-ngh text-[#333333] font-bold text-[16px] leading-[100%] tracking-[0%] ">
                             My Calender
@@ -56,7 +56,7 @@ const Layout = () => {
                         </p>
                     </div>
                     <div> <a> <LuChevronDown className="text-[20px] text-[#333333] hover:text-[#0154AA] transition" /></a></div>
-                </div>
+                </div> */}
             </div>
             <div className="lg:col-span-3  p-3">
                 {/* Right Side (75%) */}
@@ -65,6 +65,8 @@ const Layout = () => {
                 <p className="font-ngh mt-2 font-[500] text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
                     Explore the latest job openings and apply for the best opportunities available today!</p>
                 <Banner />
+              
+{/*               
                 <div>
                     <div className="mt-8  flex space-x-3 items-center " >
                         <p className="font-ngh text-[#737A91] font-normal " >Similiar : </p>
@@ -77,7 +79,12 @@ const Layout = () => {
                         </div>
                     </div>
                     <div className="w-full h-[1px] bg-gray-300 mt-3 "></div>
-                </div>
+                </div> */}
+              
+              
+              
+              
+              
                 {/* FEATURED JOBS */}
                 <div className="mt-8" >
                     <div>
