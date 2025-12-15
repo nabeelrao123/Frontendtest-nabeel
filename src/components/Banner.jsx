@@ -64,7 +64,7 @@ const Banner = () => {
 
         <div
             className="
-           border bg-white rounded-[10px] mt-8
+           border border-white bg-white rounded-[10px] mt-6
     px-4 py-4
     flex flex-col gap-4
     md:flex-row md:items-center md:justify-between

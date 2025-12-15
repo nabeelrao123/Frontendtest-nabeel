@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Navbar menuItems={menuItems} />
-      <div className="bg-accent  " >
+      <div className="bg-accent" >
         <Container>
           <Layout/>
         </Container>

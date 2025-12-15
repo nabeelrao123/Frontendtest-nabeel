@@ -21,7 +21,6 @@ const Layout = () => {
         <div className="min-h-screen grid grid-cols-1 lg:grid-cols-4">
 
             <div className="lg:col-span-1 p-3">
-                {/* Left Side (25%) */}
                 <Profilecard />
                 <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
                     <div className="flow-root">
@@ -59,7 +58,6 @@ const Layout = () => {
                 </div>
             </div>
             <div className="lg:col-span-3  p-3 mt-3 ">
-                {/* Right Side (75%) */}
                 <Sectionheading className="font-ngh font-bold text-[#333333] text-[22px] leading-[100%] tracking-[0px]"  >Find your Dream Job,
                     <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" > Albert!</span> </Sectionheading>
                 <p className="font-ngh mt-3 md:mt-2 font-normal text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
@@ -67,7 +65,7 @@ const Layout = () => {
                 <Banner />
 
 
-                <div className="mt-8">
+                <div className="mt-6">
                     <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
                         <p className="font-ngh text-[#737A91] font-normal text-sm sm:text-base whitespace-nowrap">
                             Similar :
@@ -88,14 +86,6 @@ const Layout = () => {
                     {/* Divider - responsive margin */}
                     <div className="w-full h-[1px] bg-[#E6E9Ef] mt-3 sm:mt-4"></div>
                 </div>
-
-
-
-
-
-
-
-
                 {/* FEATURED JOBS */}
                 <div className="mt-8" >
                     <div>
@@ -108,7 +98,7 @@ const Layout = () => {
                             </a>
                             {/* </span> */}
                         </Sectionheading>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-5 gap-4 mt-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-5 gap-4 mt-5">
                             {FeaturedCardData.map((item, index) =>
                                 index <= 4 ? <JobCard key={index} {...item}
                                     onButtonClick={() => alert("Web Dev Clicked")}
@@ -129,7 +119,7 @@ const Layout = () => {
 
 
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-5">
                             {jobCardData.map((item, index) => (
                                 <JobCard key={index}  {...item} />
                             ))}
@@ -143,7 +133,7 @@ const Layout = () => {
                             <span>  <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]" >  See Latest Jobs</a>
                             </span> </Sectionheading>
                         {/* <div class="grid grid-cols-5 gap-4 mt-3 "> */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-5">
                             {jobCardData.map((item, index) => (
                                 <JobCard key={index}  {...item} />
                             ))}

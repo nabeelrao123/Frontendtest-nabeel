@@ -170,7 +170,7 @@ const Navbar = (props) => {
             <input
               type="search"
               className="block w-full font-nhg font-normal rounded-md border-0 bg-[#F6F9FF] py-2 pl-10 pr-3 text-[#737A91] placeholder:[#737A91] focus:bg-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm"
-              placeholder="Search..."
+              placeholder="Search"
               autoFocus
             />
           </div>

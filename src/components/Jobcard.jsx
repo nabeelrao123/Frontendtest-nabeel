@@ -103,7 +103,7 @@
 
 
 import { FiBookmark } from "react-icons/fi";
-import { FiClock, FiMapPin } from "react-icons/fi"; // Feather icons
+import { FiClock, FiMapPin } from "react-icons/fi";
 import framee from '../assets/framee.png'
 import Button from "./Button";
 const JobCard = ({
