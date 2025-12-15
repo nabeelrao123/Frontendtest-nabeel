@@ -89,15 +89,27 @@ const Layout = () => {
                 {/* FEATURED JOBS */}
                 <div className="mt-8" >
                     <div>
-                        <Sectionheading  >
-
-                            {/* <span> */}
+                        {/* <Sectionheading  >
                             Featured Jobs
                             <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
                                 See Featured Jobs
                             </a>
-                            {/* </span> */}
-                        </Sectionheading>
+                        </Sectionheading> */}
+
+
+                        <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3  items-start md:items-center " >
+                            <p className="text-[#333333] font-ngh font-normal text-[24px] leading-[100%]" >Featured Jobs</p>
+                            <p><a className="font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
+                                See Featured Jobs
+                            </a></p>
+                        </div>
+
+
+
+
+
+
+
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-5 gap-4 mt-5">
                             {FeaturedCardData.map((item, index) =>
                                 index <= 4 ? <JobCard key={index} {...item}
@@ -109,13 +121,34 @@ const Layout = () => {
                     </div>
                     {/* RECOMMEDED JOBS */}
                     <div className="mt-8" >
-                        <Sectionheading  >
+                        {/* <Sectionheading  >
                             Recommended Jobs
                             <span>
                                 <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]" >
                                     See Recommended Jobs</a></span>
-                        </Sectionheading>
+                        </Sectionheading> */}
 
+   {/* <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3  items-start md:items-center " >
+                            <p className="text-[#333333] font-ngh font-normal text-[24px] leading-[100%]" >Recommended Jobs</p>
+                            <p  className="font-ngh font-normal text-base md:text-[16px] leading-[100%]  
+                            underline underline-offset-2 text-[#0154AA]" >
+                                 See Recommended Jobs
+                            </p>
+                        </div> */}
+
+
+
+
+
+
+
+                        
+                        <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3  items-start md:items-center " >
+                            <p className="text-[#333333] font-ngh font-normal text-[24px] leading-[100%]" >Recommended Jobs</p>
+                            <p><a className="font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
+                                See Recommended Jobs
+                            </a></p>
+                        </div>
 
 
 
@@ -129,9 +162,20 @@ const Layout = () => {
                     </div>
                     {/* LATEST JOBS */}
                     <div className="mt-8" >
-                        <Sectionheading>Latest Jobs
+
+
+                        <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3  items-start md:items-center " >
+                            <p className="text-[#333333] font-ngh font-normal text-[24px] leading-[100%]" >Latest Jobs</p>
+                            <p><a className="font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]">
+                                See Latest Jobs
+                            </a></p>
+                        </div>
+
+
+
+                        {/* <Sectionheading>Latest Jobs
                             <span>  <a className="px-5 font-ngh font-normal text-[20px] leading-[100%] tracking-[0%] underline decoration-solid decoration-2 underline-offset-2 text-[#0154AA]" >  See Latest Jobs</a>
-                            </span> </Sectionheading>
+                            </span> </Sectionheading> */}
                         {/* <div class="grid grid-cols-5 gap-4 mt-3 "> */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-5">
                             {jobCardData.map((item, index) => (
