@@ -17,7 +17,7 @@ const Navbar = (props) => {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="inline-flex items-center justify-center rounded-md p-2
-               text-gray-400 hover:bg-white/5 hover:text-white focus:outline-none"
+               text-[#737A91]  hover:text-[#737A91] focus:outline-none"
             >
               {!mobileOpen ? (
                 <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
@@ -69,7 +69,8 @@ const Navbar = (props) => {
             <div className="hidden xl:block xl:mr-4 ">
               <div className="relative">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                  <svg className="h-4 w-4 text-[#737A91]" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                  <svg className="h-4 w-4 text-[#737A91]" fill="none" stroke="currentColor" 
+                  strokeWidth="1.5" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                   </svg>
                 </div>
@@ -87,7 +88,8 @@ const Navbar = (props) => {
            <div className="block xl:hidden mr-3">
               <button
                 onClick={() => setSearchOpen(!searchOpen)}
-                className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-none"
+                className="inline-flex items-center justify-center rounded-md p-2 text-[#737A91]
+                  hover:text-[#737A91] focus:outline-none"
               >
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
@@ -127,7 +129,7 @@ const Navbar = (props) => {
             {/* Profile Dropdown */}
             <div className="relative">
               <button
-                onClick={() => setProfileOpen(!profileOpen)}
+                // onClick={() => setProfileOpen(!profileOpen)}
                 className="flex rounded-full focus:outline-none"
               >
                 <img
@@ -138,7 +140,7 @@ const Navbar = (props) => {
                 />
               </button>
 
-              {profileOpen && (
+              {/* {profileOpen && (
                 <div className="absolute right-0 z-10 mt-2 w-48 rounded-md bg-white py-1 shadow-lg">
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                     Your Profile
@@ -150,7 +152,7 @@ const Navbar = (props) => {
                     Sign out
                   </a>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
