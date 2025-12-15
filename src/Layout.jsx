@@ -61,7 +61,7 @@ const Layout = () => {
             <div className="lg:col-span-3  p-3 mt-3 ">
                 {/* Right Side (75%) */}
                 <Sectionheading className="font-ngh font-bold text-[#333333] text-[22px] leading-[100%] tracking-[0px]"  >Find your Dream Job,
-                    <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" >Albert!</span> </Sectionheading>
+                    <span className="font-ngh font-bold text-[#0154AA]  text-[22px] leading-[100%] tracking-[0px]" > Albert!</span> </Sectionheading>
                 <p className="font-ngh mt-2 font-normal text-[#585D6E] text-[14px] leading-[100%] tracking-[0px] ">
                     Explore the latest job openings and apply for the best opportunities available today!</p>
                 <Banner />
