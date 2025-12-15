@@ -1,6 +1,65 @@
+export const FeaturedCardData = [
+    {
+        promotedText: "Promoted",
+        title: "UI/UX Designer",
+        team: "Team",
+        location: "Seattle, USA (Remote)",
+        postedTime: "1day ago",
+        applicants: "22 applicants",
+        buttonText: "Apply Now",
+        onButtonClick: () => alert("Web Dev Clicked")
+
+    },
+    {
+        promotedText: "Promoted",
+        title: "UI/UX Designer",
+        team: "Team",
+        location: "Seattle, USA (Remote)",
+        postedTime: "1 day ago",
+        applicants: "22 applicants",
+        buttonText: "Apply Now",
+        onButtonClick: () => alert("Web Dev Clicked")
+
+    },
+    {
+        promotedText: "Promoted",
+        title: "UI/UX Designer",
+        team: "Team",
+        location: "Seattle, USA (Remote)",
+        postedTime: "1 day ago",
+        applicants: "22 applicants",
+        buttonText: "Apply Now",
+        onButtonClick: () => alert("Web Dev Clicked")
+
+    },
+    {
+        promotedText: "Promoted",
+        title: "UI/UX Designer",
+        team: "Team",
+        location: "Seattle, USA (Remote)",
+        postedTime: "1 day ago",
+        applicants: "22 applicants",
+        buttonText: "Apply Now",
+        onButtonClick: () => alert("Web Dev Clicked")
+
+    },
+    {
+        promotedText: "Promoted",
+        title: "UI/UX Designer",
+        team: "Team",
+        location: "Seattle, USA (Remote)",
+        postedTime: "1 day ago",
+        applicants: "22 applicants",
+        buttonText: "Apply Now",
+        onButtonClick: () => alert("Web Dev Clicked")
+
+    },
+]
+
+
 export const jobCardData = [
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -11,7 +70,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -22,7 +81,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -33,7 +92,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -44,7 +103,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -55,7 +114,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -66,7 +125,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -77,7 +136,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -88,7 +147,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",
@@ -99,7 +158,7 @@ export const jobCardData = [
 
     },
     {
-        promotedText: "Promoted",
+        promotedText: "",
         title: "UI/UX Designer",
         team: "Team",
         location: "Seattle, USA (Remote)",

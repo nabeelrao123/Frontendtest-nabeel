@@ -107,7 +107,7 @@ import { FiClock, FiMapPin } from "react-icons/fi"; // Feather icons
 import framee from '../assets/framee.png'
 import Button from "./Button";
 const JobCard = ({
-    promotedText = "Promoted",
+    promotedText,
     title,
     team,
     location,
@@ -120,7 +120,12 @@ const JobCard = ({
     return (
         <>
             <div className="bg-white flex flex-col space-y-2 py-3 px-2 border border-[#E1E1E1] rounded-[10px] border-default shadow-xs">
-                <p className="font-ngh text-[10px] text-[#333333] font-semibold  " >Promoted</p>
+                {/* <p className="font-ngh text-[10px] text-[#333333] font-semibold  " >
+                    promotedText?   promotedText:''} 
+                    
+                    </p> */}
+                    {promotedText && <p className="font-ngh text-[10px] text-[#333333] font-semibold  " >{promotedText}</p>}
+
                 <div className="flex items-center space-x-2" >
                     <img src={framee}
                         alt="Service icon"

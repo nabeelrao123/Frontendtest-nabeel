@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { FiClock, FiMapPin } from "react-icons/fi"; // Feather icons
-// import framee from './assets/framee.png'
+import framee from '../assets/framee.png'
 // import rectan from './assets/rectan.png'
-// import ovals from './assets/ovals.png'
+import ovals from '../assets/ovals.png'
+import rectan from '../assets/rectan.png'
 
 const Profilecard = () => {
 
@@ -95,4 +96,4 @@ const Profilecard = () => {
   );
 };
 
-export default ProfileCard;
+export default Profilecard;

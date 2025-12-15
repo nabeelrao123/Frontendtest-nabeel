@@ -8,15 +8,15 @@ import Sectionheading from "../src/components/Sectionheading";
 import { LuChevronDown } from "react-icons/lu";
 import Banner from "../src/components/Banner";
 import { jobCardData } from "./data";
-import ProfileCard from "./components/Profilecard";
-
+import Profilecard from "./components/Profilecard";
+import { FeaturedCardData } from "./data";
 const Layout = () => {
 
 
     const users = [
-        { name: "Neil Sims", score: 140 },
-        { name: "Bonnie Green", score: 20 },
-        { name: "Michael Gough", score: 88 },
+        { name: "Profile Vistor", score: 140 },
+        { name: "Resume Viewers", score: 20 },
+        { name: "My Jobs", score: 88 },
     ];
 
     return (
@@ -28,7 +28,7 @@ const Layout = () => {
 
             <div className="lg:col-span-1 p-3">
                 {/* Left Side (25%) */}
-                <ProfileCard />
+                <Profilecard />
 
 
                 <div className="w-full p-3 bg-white border mt-3 border-white rounded-lg">
@@ -38,15 +38,23 @@ const Layout = () => {
                                 <li key={index} className="py-4">
                                     <div className="flex items-center justify-between">
                                         <div className="flex-1 min-w-0 ms-2">
-                                            <p className="font-ngh font-normal text-[#333333] text-[14px] ">
+                                            <p className="font-ngh font-normal text-[#333333]
+  text-[14px]
+  leading-none
+  ">
                                                 {user.name}
                                             </p>
                                         </div>
                                         <div className="inline-flex items-center font-medium text-heading">
-                                            <p className="font-medium font-ngh text-[#0154AA] text-[16px] ">
+                                            <p className="font-ngh text-[#0154AA]
+  font-medium
+  text-[16px]
+  leading-none
+  tracking-normal
+  text-right">
 
 
-                                              fgfhgfh  {user.score}
+                                       {user.score}
                                             </p>
                                         </div>
                                     </div>
@@ -64,8 +72,8 @@ const Layout = () => {
                         <p class="font-ngh text-[#333333] font-bold text-[16px] leading-[100%] tracking-[0%] ">
                             My Calender
                         </p>
-                        <p class="font-ngh text-[#737A91] font-semibold text-[14px] leading-[100%] tracking-[0%] ">
-                            Upcoming Interview hjbjhb
+                        <p class="font-ngh text-[#737A91]  font-normal text-[14px] leading-[100%] tracking-[0%] ">
+                            Upcoming Interview
                         </p>
                     </div>
                     <div> <a> <LuChevronDown className="text-[20px] text-[#333333] hover:text-[#0154AA] transition" /></a></div>
@@ -148,8 +156,10 @@ const Layout = () => {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-3">
 
-                            {jobCardData.map((item, index) =>
-                                index <= 4 ? <JobCard key={index} {...item} /> : <></>
+                            {FeaturedCardData.map((item, index) =>
+                                index <= 4 ? <JobCard key={index} {...item}
+                                 onButtonClick= {() => alert("Web Dev Clicked")}
+                                /> : <></>
                             )}
                         </div>
                         <div className="w-full h-[1px] bg-gray-300 mt-3 "></div>
