@@ -6,17 +6,20 @@ import Navbar from './components/Navbar'
 import Layout from './Layout'
 import Container from './components/Container'
 import { menuItems } from './data'
+import News from './components/News'
 
 
 function App() {
   return (
     <div>
-      <Navbar menuItems={menuItems} />
+      {/* <Navbar menuItems={menuItems} />
       <div className="bg-accent" >
         <Container>
           <Layout/>
         </Container>
-      </div>
+      </div> */}
+
+      <News/>
 
     </div>
   )
