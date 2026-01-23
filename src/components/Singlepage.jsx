@@ -143,7 +143,7 @@ const Singlepage = () => {
     };
 
     const handleWhatsAppClick = () => {
-        const phoneNumber = "+1234567890";
+        const phoneNumber = "+923062977684";
         const message = "Hello, I'm interested in your scrap metal recycling services.";
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');

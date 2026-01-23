@@ -21,7 +21,9 @@ function App() {
       </div> */}
 
       {/* <News/> */}
-      <Newfile/>
+      {/* <Newfile/> */}
+<Singlepage/>      
+
 
     </div>
   )
