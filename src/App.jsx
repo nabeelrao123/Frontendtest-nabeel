@@ -7,6 +7,7 @@ import Layout from './Layout'
 import Container from './components/Container'
 import { menuItems } from './data'
 import News from './components/News'
+import Newfile from './components/Newfile'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         </Container>
       </div> */}
 
-      <News/>
+      {/* <News/> */}
+      <Newfile/>
 
     </div>
   )
