@@ -72,7 +72,7 @@
 //                 entries.forEach(entry => {
 //                     if (entry.isIntersecting) {
 //                         entry.target.classList.add('animate-fadeInUp');
-                        
+
 //                         // Update active section based on which section is in view
 //                         const sectionId = entry.target.id;
 //                         if (sectionId) {
@@ -144,7 +144,7 @@
 //             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 //             window.scrollTo({ top: y, behavior: 'smooth' });
 //         }
-        
+
 //         setMobileMenuOpen(false);
 //         setActiveSection(sectionId);
 //     };
@@ -576,7 +576,7 @@
 //                                 <div className="absolute -bottom-6 -right-6 w-full h-full border-4 border-yellow-500 rounded-lg"></div>
 //                             </div>
 //                         </div>
-                        
+
 //                         {/* Scroll Down Indicator */}
 //                         <motion.div
 //                             animate={{ y: [0, 10, 0] }}
@@ -1394,7 +1394,7 @@ const Singlepagetoggle = () => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('animate-fadeInUp');
-                        
+
                         // Update active section based on which section is in view
                         const sectionId = entry.target.id;
                         if (sectionId) {
@@ -1435,7 +1435,7 @@ const Singlepagetoggle = () => {
 
     const scrollToSection = (sectionId) => {
         let element;
-        switch(sectionId) {
+        switch (sectionId) {
             case 'home':
                 element = homeRef.current;
                 break;
@@ -1466,7 +1466,7 @@ const Singlepagetoggle = () => {
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
         }
-        
+
         setMobileMenuOpen(false);
         setActiveSection(sectionId);
     };
@@ -1510,13 +1510,13 @@ const Singlepagetoggle = () => {
         footerText: isDarkMode ? '#d1d5db' : '#9ca3af',
         inputBackground: isDarkMode ? '#1f2937' : '#ffffff',
         inputBorder: isDarkMode ? '#374151' : '#d1d5db',
-        heroGradient: isDarkMode 
+        heroGradient: isDarkMode
             ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.15) 0%, rgba(15, 118, 110, 0.1) 100%)'
             : 'linear-gradient(135deg, rgba(13, 148, 136, 0.1) 0%, rgba(15, 118, 110, 0.05) 100%)',
-        testimonialCardBg: isDarkMode 
-            ? 'linear-gradient(145deg, #1f2937, #111827)' 
+        testimonialCardBg: isDarkMode
+            ? 'linear-gradient(145deg, #1f2937, #111827)'
             : 'linear-gradient(145deg, #ffffff, #f3f4f6)',
-        testimonialShadow: isDarkMode 
+        testimonialShadow: isDarkMode
             ? '10px 10px 20px #0a0f1a, -10px -10px 20px #182235'
             : '10px 10px 20px #d1d5db, -10px -10px 20px #ffffff',
         hoverColor: isDarkMode ? '#374151' : '#f3f4f6'
@@ -1712,7 +1712,7 @@ const Singlepagetoggle = () => {
 
             {/* Navigation */}
             <nav className="bg-gray-900 sticky top-0 z-50 shadow-lg transition-colors duration-300"
-                 style={{ backgroundColor: themeStyles.navbarBackground }}>
+                style={{ backgroundColor: themeStyles.navbarBackground }}>
                 <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
                     <div className="flex justify-between items-center py-4">
                         {/* Logo */}
@@ -1745,9 +1745,8 @@ const Singlepagetoggle = () => {
                                     <button
                                         key={item.id}
                                         onClick={() => scrollToSection(item.id)}
-                                        className={`text-lg font-medium nav-link relative ${
-                                            activeSection === item.id ? 'text-teal-600' : ''
-                                        } transition-colors duration-300`}
+                                        className={`text-lg font-medium nav-link relative ${activeSection === item.id ? 'text-teal-600' : ''
+                                            } transition-colors duration-300`}
                                         style={{
                                             background: 'none',
                                             border: 'none',
@@ -1792,10 +1791,10 @@ const Singlepagetoggle = () => {
                             <button
                                 className="text-2xl"
                                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                                style={{ 
-                                    background: 'none', 
-                                    border: 'none', 
-                                    color: themeStyles.textColor 
+                                style={{
+                                    background: 'none',
+                                    border: 'none',
+                                    color: themeStyles.textColor
                                 }}
                             >
                                 <FontAwesomeIcon icon={faBars} />
@@ -1844,13 +1843,13 @@ const Singlepagetoggle = () => {
 
             <main>
                 {/* Hero Section */}
-                <section 
-                    id="home" 
-                    ref={homeRef} 
+                <section
+                    id="home"
+                    ref={homeRef}
                     className="min-h-screen flex items-center relative overflow-hidden"
-                    style={{ 
+                    style={{
                         background: themeStyles.heroGradient,
-                        paddingTop: '80px' 
+                        paddingTop: '80px'
                     }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -1898,7 +1897,7 @@ const Singlepagetoggle = () => {
                                 <div className="absolute -bottom-6 -right-6 w-full h-full border-4 border-yellow-500 rounded-lg"></div>
                             </div>
                         </div>
-                        
+
                         {/* Scroll Down Indicator */}
                         <motion.div
                             animate={{ y: [0, 10, 0] }}
@@ -1908,11 +1907,11 @@ const Singlepagetoggle = () => {
                             <button
                                 onClick={() => scrollToSection('about')}
                                 className="transition-colors duration-300"
-                                style={{ 
-                                    background: 'none', 
-                                    border: 'none', 
+                                style={{
+                                    background: 'none',
+                                    border: 'none',
                                     cursor: 'pointer',
-                                    color: themeStyles.secondaryTextColor 
+                                    color: themeStyles.secondaryTextColor
                                 }}
                             >
                                 <FontAwesomeIcon icon={faChevronDown} className="text-3xl" />
@@ -1922,10 +1921,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* Services Section */}
-                <section 
-                    id="services" 
+                <section
+                    id="services"
                     ref={servicesRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -1968,10 +1967,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* About Us Section */}
-                <section 
-                    id="about" 
+                <section
+                    id="about"
                     ref={aboutRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -2062,8 +2061,8 @@ const Singlepagetoggle = () => {
                             transition={{ duration: 0.8, delay: 0.5 }}
                             className="rounded-xl p-8"
                             style={{
-                                background: isDarkMode 
-                                    ? 'linear-gradient(to right, #1f2937, #111827)' 
+                                background: isDarkMode
+                                    ? 'linear-gradient(to right, #1f2937, #111827)'
                                     : 'linear-gradient(to right, #ffffff, #f3f4f6)',
                                 border: `1px solid ${themeStyles.cardBorder}`
                             }}
@@ -2097,10 +2096,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* Products Section */}
-                <section 
-                    id="products" 
+                <section
+                    id="products"
                     ref={productsRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -2145,10 +2144,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* Gallery Section */}
-                <section 
-                    id="gallery" 
+                <section
+                    id="gallery"
                     ref={galleryRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -2158,55 +2157,55 @@ const Singlepagetoggle = () => {
                         <p className="text-xl mb-12 text-center max-w-3xl mx-auto" style={{ color: themeStyles.secondaryTextColor }}>
                             Take a look at our operations, facility, and recycling processes.
                         </p>
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-  {galleryImages.map((image, index) => (
-    <motion.div
-      key={index}
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 0.7,
-        delay: index * 0.12,
-        ease: "easeOut"
-      }}
-      whileHover={{
-        y: -8,
-        scale: 1.03
-      }}
-      className="relative overflow-hidden rounded-2xl cursor-pointer group bg-black/40 backdrop-blur-xl border border-white/10 shadow-xl hover:shadow-teal-500/30 transition-all duration-500"
-      onClick={() => openLightbox(image.fullSrc)}
-    >
-      {/* Image */}
-      <motion.img
-        src={image.src}
-        alt={image.title}
-        className="w-full h-64 object-cover"
-        whileHover={{ scale: 1.15 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-      />
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {galleryImages.map((image, index) => (
+                                <motion.div
+                                    key={index}
+                                    initial={{ opacity: 0, y: 40 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    // viewport={{ once: true }}  code changde kia hai hr dafa animated
+                                    transition={{
+                                        duration: 0.7,
+                                        delay: index * 0.12,
+                                        ease: "easeOut"
+                                    }}
+                                    whileHover={{
+                                        y: -8,
+                                        scale: 1.03
+                                    }}
+                                    className="relative overflow-hidden rounded-2xl cursor-pointer group bg-black/40 backdrop-blur-xl border border-white/10 shadow-xl hover:shadow-teal-500/30 transition-all duration-500"
+                                    onClick={() => openLightbox(image.fullSrc)}
+                                >
+                                    {/* Image */}
+                                    <motion.img
+                                        src={image.src}
+                                        alt={image.title}
+                                        className="w-full h-64 object-cover"
+                                        whileHover={{ scale: 1.15 }}
+                                        transition={{ duration: 0.6, ease: "easeOut" }}
+                                    />
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
+                                    {/* Dark overlay */}
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
 
-      {/* Title animation */}
-      <motion.div
-        initial={{ y: 20, opacity: 0 }}
-        whileHover={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4 }}
-        className="absolute bottom-0 left-0 right-0 p-6"
-      >
-        <h3 className="text-2xl font-bold text-white tracking-wide">
-          {image.title}
-        </h3>
-        <span className="block mt-2 w-12 h-1 bg-teal-500 rounded-full" />
-      </motion.div>
+                                    {/* Title animation */}
+                                    <motion.div
+                                        initial={{ y: 20, opacity: 0 }}
+                                        whileHover={{ y: 0, opacity: 1 }}
+                                        transition={{ duration: 0.4 }}
+                                        className="absolute bottom-0 left-0 right-0 p-6"
+                                    >
+                                        <h3 className="text-2xl font-bold text-white tracking-wide">
+                                            {image.title}
+                                        </h3>
+                                        <span className="block mt-2 w-12 h-1 bg-teal-500 rounded-full" />
+                                    </motion.div>
 
-      {/* Glow border */}
-      <div className="absolute inset-0 rounded-2xl ring-1 ring-transparent group-hover:ring-teal-500/40 transition duration-500" />
-    </motion.div>
-  ))}
-</div>
+                                    {/* Glow border */}
+                                    <div className="absolute inset-0 rounded-2xl ring-1 ring-transparent group-hover:ring-teal-500/40 transition duration-500" />
+                                </motion.div>
+                            ))}
+                        </div>
 
 
                         {/* Lightbox */}
@@ -2253,10 +2252,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* Testimonials Section */}
-                <section 
-                    id="testimonials" 
+                <section
+                    id="testimonials"
                     ref={testimonialsRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -2353,10 +2352,10 @@ const Singlepagetoggle = () => {
                 </section>
 
                 {/* Contact Section */}
-                <section 
-                    id="contact" 
+                <section
+                    id="contact"
                     ref={contactRef}
-                    className="section-padding" 
+                    className="section-padding"
                     style={{ padding: '5rem 0' }}
                 >
                     <div className="section-container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -2465,15 +2464,7 @@ const Singlepagetoggle = () => {
                                 <h3 className="text-3xl font-bold mb-8 text-yellow-500">Get in Touch</h3>
 
                                 <div className="space-y-8 mb-10">
-                                    <div className="flex items-start">
-                                        <div className="bg-teal-600 p-3 rounded-lg mr-4">
-                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl" />
-                                        </div>
-                                        <div>
-                                            <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Our Address</h4>
-                                            <p style={{ color: themeStyles.secondaryTextColor }}>123 Industrial Parkway<br />Metropolis, MP 12345</p>
-                                        </div>
-                                    </div>
+
 
                                     <div className="flex items-start">
                                         <div className="bg-teal-600 p-3 rounded-lg mr-4">
@@ -2481,23 +2472,34 @@ const Singlepagetoggle = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Phone Number</h4>
-                                            <p style={{ color: themeStyles.secondaryTextColor }}>+1 (555) 123-4567<br />Mon-Fri: 8AM-6PM, Sat: 9AM-2PM</p>
+                                            <p style={{ color: themeStyles.secondaryTextColor }}>00971-50-6252875<br />Mon-Fri: 8AM-6PM, Sat: 9AM-2PM</p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-start">
                                         <div className="bg-teal-600 p-3 rounded-lg mr-4">
-                                            <FontAwesomeIcon icon={faEnvelope} className="text-xl" />
+                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl" />
                                         </div>
                                         <div>
-                                            <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Email Address</h4>
-                                            <p style={{ color: themeStyles.secondaryTextColor }}>info@metallixscrap.com<br />sales@metallixscrap.com</p>
+                                            <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Yard Address</h4>
+                                            <p style={{ color: themeStyles.secondaryTextColor }}>RUKN AL TAWAR WASTE TREATMENT LLC NEAR QASAR AL KABEER Market.<br /></p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start">
+                                        <div className="bg-teal-600 p-3 rounded-lg mr-4">
+                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl" />
+                                        </div>
+                                        <div>
+                                            <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Office Address</h4>
+                                            <p style={{ color: themeStyles.secondaryTextColor }}>P6-ELOB.<br />
+                                            Office No:E-16F-02 Hamriyah Free Zone, Sharjah, United Arab Emirates.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
 
                                 {/* Map Placeholder */}
-                                <div className="rounded-xl overflow-hidden h-64" style={{ backgroundColor: themeStyles.cardBackground }}>
+                                {/* <div className="rounded-xl overflow-hidden h-64" style={{ backgroundColor: themeStyles.cardBackground }}>
                                     <div className="w-full h-full flex items-center justify-center">
                                         <div className="text-center">
                                             <FontAwesomeIcon icon={faMapMarkedAlt} className="text-4xl text-teal-600 mb-4" />
@@ -2505,7 +2507,7 @@ const Singlepagetoggle = () => {
                                             <p className="text-sm mt-2" style={{ color: themeStyles.secondaryTextColor }}>Map integration would go here</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Business Hours */}
                                 <div className="mt-8 rounded-xl p-6" style={{ backgroundColor: themeStyles.cardBackground }}>
@@ -2572,11 +2574,11 @@ const Singlepagetoggle = () => {
                                     <button
                                         key={index}
                                         className="w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
-                                        style={{ 
+                                        style={{
                                             backgroundColor: isDarkMode ? '#374151' : '#e5e7eb',
                                             color: isDarkMode ? '#9ca3af' : '#4b5563',
-                                            border: 'none', 
-                                            cursor: 'pointer' 
+                                            border: 'none',
+                                            cursor: 'pointer'
                                         }}
                                     >
                                         <FontAwesomeIcon icon={icon} />
@@ -2602,11 +2604,11 @@ const Singlepagetoggle = () => {
                                         <button
                                             onClick={() => scrollToSection(item.id)}
                                             className="transition duration-300 text-left"
-                                            style={{ 
-                                                background: 'none', 
-                                                border: 'none', 
+                                            style={{
+                                                background: 'none',
+                                                border: 'none',
                                                 cursor: 'pointer',
-                                                color: themeStyles.footerText 
+                                                color: themeStyles.footerText
                                             }}
                                         >
                                             {item.label}
