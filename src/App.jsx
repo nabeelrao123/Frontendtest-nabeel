@@ -9,6 +9,7 @@ import { menuItems } from './data'
 import News from './components/News'
 import Newfile from './components/Newfile'
 import Singlepage from './components/Singlepage'
+import Singlepagetoggle from './components/Singlepagetoggle'
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
 
       {/* <News/> */}
       {/* <Newfile/> */}
-<Singlepage/>      
+{/* <Singlepage/>       */}
+<Singlepagetoggle/>
 
 
     </div>
