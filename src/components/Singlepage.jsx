@@ -39,7 +39,7 @@ import {
     faWhatsapp
 } from '@fortawesome/free-brands-svg-icons';
 
-const News = () => {
+const Singlepage = () => {
     const [activeSection, setActiveSection] = useState('home');
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -1151,4 +1151,4 @@ const News = () => {
     );
 };
 
-export default News;
+export default Singlepage;

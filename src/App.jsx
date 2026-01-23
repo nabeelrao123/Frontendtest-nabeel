@@ -8,7 +8,7 @@ import Container from './components/Container'
 import { menuItems } from './data'
 import News from './components/News'
 import Newfile from './components/Newfile'
-
+import Singlepage from './components/Singlepage'
 
 function App() {
   return (
