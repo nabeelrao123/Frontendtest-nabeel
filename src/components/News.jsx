@@ -1226,45 +1226,6 @@ const News = () => {
                             <p className="text-xl text-gray-400 mb-12 text-center max-w-3xl mx-auto">
                                 We offer a diverse range of meticulously processed metal scrap, ready to fuel the manufacturing needs of diverse industries </p>
 
-                            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {products.map((product, index) => (
-                  <div key={index} className="bg-gray-800 rounded-xl overflow-hidden card-hover group">
-                    <div className="h-48 overflow-hidden">
-                      <img 
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <div className="flex items-center justify-between mb-4">
-                        <h3 className="text-2xl font-bold">{product.name}</h3>
-                        <div className="bg-teal-600 text-white font-bold py-1 px-3 rounded-full">
-                          {product.status}
-                        </div>
-                      </div>
-                      <p className="text-gray-400 mb-6">
-                        {product.name === "Iron Scrap" && "We accept all types of iron scrap including cast iron, wrought iron, and steel. Competitive pricing based on quality."}
-                        {product.name === "Steel Scrap" && "All grades of steel scrap including structural steel, stainless steel, and machinery parts. We offer competitive prices."}
-                        {product.name === "Copper Scrap" && "We buy copper wire, tubing, and other copper materials. Prices vary based on purity and form."}
-                        {product.name === "Aluminum Scrap" && "All types of aluminum including extrusions, sheets, cans, and cast aluminum. We pay top prices for clean aluminum."}
-                      </p>
-                      <div className="flex justify-between items-center">
-                        <span className="text-yellow-500 font-bold text-xl">{product.price}</span>
-                        <button
-                          onClick={() => handlePageChange('contact')}
-                          className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300"
-                        >
-                          Inquire
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div> */}
-
-
-
 
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
