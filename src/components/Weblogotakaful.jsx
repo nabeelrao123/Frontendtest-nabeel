@@ -1585,7 +1585,8 @@ const Weblogotakaful = () => {
 
     // Theme-based styles with Rukn Al Tawar brand colors
     const themeStyles = {
-        backgroundColor: isDarkMode ? '#111827' : '#F4F4F4',
+        backgroundColor: isDarkMode ? '#111827' : '#FFFFFF', 
+        // bg color yaha change kia hai upr
         textColor: isDarkMode ? '#f9fafb' : '#111827',
         secondaryTextColor: isDarkMode ? '#d1d5db' : '#4b5563',
         cardBackground: isDarkMode ? '#1f2937' : '#ffffff',
@@ -1669,7 +1670,37 @@ const Weblogotakaful = () => {
             fullSrc: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
             title: "Scrap Yard Operations"
         },
+          {
+            src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Scrap Yard Operations"
+        },
+          {
+            src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Scrap Yard Operations"
+        },
+          {
+            src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Scrap Yard Operations"
+        },
+          {
+            src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Scrap Yard Operations"
+        },
         {
+            src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Processing Facility"
+        },
+         {
+            src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+            fullSrc: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+            title: "Processing Facility"
+        },
+         {
             src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
             fullSrc: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
             title: "Processing Facility"
@@ -1679,21 +1710,7 @@ const Weblogotakaful = () => {
             fullSrc: "https://images.unsplash.com/photo-1593941707882-a5bba5338fe2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
             title: "Steel Scrap Collection"
         },
-        {
-            src: "https://images.unsplash.com/photo-1620748698226-b6a8a5e1e9f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            fullSrc: "https://images.unsplash.com/photo-1620748698226-b6a8a5e1e9f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-            title: "Sorted Metals"
-        },
-        {
-            src: "https://images.unsplash.com/photo-1621533672183-4b4b32f7164e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            fullSrc: "https://images.unsplash.com/photo-1621533672183-4b4b32f7164e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-            title: "Copper Processing"
-        },
-        {
-            src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-            fullSrc: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-            title: "Advanced Machinery"
-        }
+        
     ];
 
     const testimonials = [
