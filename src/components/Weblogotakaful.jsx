@@ -1585,7 +1585,7 @@ const Weblogotakaful = () => {
 
     // Theme-based styles with Rukn Al Tawar brand colors
     const themeStyles = {
-        backgroundColor: isDarkMode ? '#111827' : '#F4F4F4', 
+        backgroundColor: isDarkMode ? '#111827' : '#FFFFFF', 
         // bg color yaha change kia hai upr
         textColor: isDarkMode ? '#f9fafb' : '#111827',
         secondaryTextColor: isDarkMode ? '#d1d5db' : '#4b5563',
@@ -2308,6 +2308,7 @@ const Weblogotakaful = () => {
                                     key={index}
                                     initial={{ opacity: 0, y: 40 }}
                                     whileInView={{ opacity: 1, y: 0 }}
+                                      viewport={{ once: true }}
                                     transition={{
                                         duration: 0.7,
                                         delay: index * 0.12,
