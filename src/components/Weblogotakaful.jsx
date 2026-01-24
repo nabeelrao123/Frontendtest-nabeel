@@ -1751,7 +1751,7 @@ const Weblogotakaful = () => {
                     height: '60px',
                     bottom: '40px',
                     right: '40px',
-                    backgroundColor: '#375382',
+                    backgroundColor: '#25d366',
                     color: 'white',
                     borderRadius: '50px',
                     textAlign: 'center',
@@ -1824,9 +1824,9 @@ const Weblogotakaful = () => {
                 <div className="leading-tight text-left">
                     <div className="text-xl md:text-2xl font-bold tracking-wide">
                         <span style={{ color: '#375382' }}>RUKN</span>{' '}
-                        <span style={{ color: themeStyles.textColor }}>AL TAWAR</span>
+                        <span style={{ color: '#375382' }}>AL TAWAR</span>
                     </div>
-                    <div className="text-xs md:text-sm uppercase tracking-widest opacity-70">
+                    <div className="text-xs md:text-sm uppercase tracking-widest opacity-90">
                         Waste Treatment L.L.C
                     </div>
                 </div>
@@ -2653,7 +2653,7 @@ const Weblogotakaful = () => {
                 </section>
 
                 {/* CTA Section */}
-                <section className="section-padding" style={{ 
+                {/* <section className="section-padding" style={{ 
                     padding: '5rem 0',
                     backgroundColor: '#375382',
                     color: '#FFFFFF'
@@ -2686,7 +2686,7 @@ const Weblogotakaful = () => {
                             </button>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </main>
 
             {/* Footer */}
@@ -2701,8 +2701,16 @@ const Weblogotakaful = () => {
                                 </div>
                                 <div className="text-2xl font-bold">
                                     <span style={{ color: '#FFFFFF' }}>Rukn</span>
-                                    <span style={{ color: '#FFFFFF' }}> Al Tawar</span>
+                                    <span style={{ color: '#FFFFFF' }}> Al Tawar </span>  
+                                 <div className='text-xs md:text-sm  text-white' >
+                        Waste Treatment LLC
+                    </div>
+                                 <div className='text-xs md:text-sm uppercase text-white' >
+                     ركن الطوار لمعالجة النفايات ذ.م.م
+                    </div>
+                       
                                 </div>
+                      
                             </div>
                             <p className="mb-6" style={{ color: themeStyles.footerText }}>
                                 Rukn Al Tawar Waste Treatment LLC - Leading waste treatment and metal recycling company in Sharjah, UAE with years of experience. Committed to sustainable practices and customer satisfaction.
