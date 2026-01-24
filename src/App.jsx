@@ -10,6 +10,7 @@ import News from './components/News'
 import Newfile from './components/Newfile'
 import Singlepage from './components/Singlepage'
 import Singlepagetoggle from './components/Singlepagetoggle'
+import Weblogotakaful from './components/Weblogotakaful'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <News/> */}
       {/* <Newfile/> */}
 {/* <Singlepage/>       */}
-<Singlepagetoggle/>
+{/* <Singlepagetoggle/> */}
+<Weblogotakaful/>
 
 
     </div>
