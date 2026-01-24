@@ -1585,7 +1585,7 @@ const Weblogotakaful = () => {
 
     // Theme-based styles with Rukn Al Tawar brand colors
     const themeStyles = {
-        backgroundColor: isDarkMode ? '#111827' : '#FFFFFF', 
+        backgroundColor: isDarkMode ? '#111827' : '#F4F4F4', 
         // bg color yaha change kia hai upr
         textColor: isDarkMode ? '#f9fafb' : '#111827',
         secondaryTextColor: isDarkMode ? '#d1d5db' : '#4b5563',
