@@ -2049,7 +2049,7 @@ const Weblogotakaful = () => {
                 </section>
 
                 {/* Services Section */}
-                <section
+                {/* <section
                     id="services"
                     ref={servicesRef}
                     className="section-padding"
@@ -2092,7 +2092,7 @@ const Weblogotakaful = () => {
                             ))}
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/* About Us Section */}
                 <section
@@ -2600,7 +2600,7 @@ const Weblogotakaful = () => {
 
                                 <div className="space-y-8 mb-10">
                                     <div className="flex items-start">
-                                        <div className="p-3 rounded-lg mr-4" style={{ backgroundColor: '#375382' }}>
+                                        <div className="p-3 rounded-lg mr-4" style={{  }}>
                                             <FontAwesomeIcon icon={faPhoneAlt} className="text-xl text-[#375382]" />
                                         </div>
                                         <div>
@@ -2610,8 +2610,8 @@ const Weblogotakaful = () => {
                                     </div>
 
                                     <div className="flex items-start">
-                                        <div className="p-3 rounded-lg mr-4" style={{ backgroundColor: '#375382' }}>
-                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl text-white" />
+                                        <div className="p-3 rounded-lg mr-4" style={{  }}>
+                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl text-[#375382]" />
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Yard Address</h4>
@@ -2619,8 +2619,8 @@ const Weblogotakaful = () => {
                                         </div>
                                     </div>
                                     <div className="flex items-start">
-                                        <div className="p-3 rounded-lg mr-4" style={{ backgroundColor: '#375382' }}>
-                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl text-white" />
+                                        <div className="p-3 rounded-lg mr-4" style={{}}>
+                                            <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl text-[#375382]" />
                                         </div>
                                         <div>
                                             <h4 className="text-xl font-bold mb-2" style={{ color: themeStyles.textColor }}>Office Address</h4>
